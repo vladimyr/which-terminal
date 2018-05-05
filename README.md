@@ -17,7 +17,9 @@ Checkout [`example.js`](example.js)
 const terminal = require('which-terminal');
 //=> { program: String, command: String } or null
 
-console.log('Using %s [cmd=%s]', terminal.program, terminal.command);
+if (terminal) {
+    console.log('Using %s [cmd=%s]', terminal.program, terminal.command);
+}
 // Running in Hyper:
 //=> "Using: hyper [cmd=/opt/Hyper/hyper]"
 
