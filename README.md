@@ -1,4 +1,4 @@
-# which-terminal ![package version](https://img.shields.io/npm/v/which-terminal.svg) [![GitHub license](https://img.shields.io/github/license/ExtensionEngine/tailor.svg)](https://github.com/ExtensionEngine/tailor/blob/develop/LICENSE)
+# which-terminal [![package version](https://img.shields.io/npm/v/which-terminal.svg)](https://npm.im/which-terminal) [![GitHub license](https://img.shields.io/github/license/ExtensionEngine/tailor.svg)](https://github.com/ExtensionEngine/tailor/blob/develop/LICENSE)
 
 > Check active terminal emulator
 
