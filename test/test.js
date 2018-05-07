@@ -20,13 +20,9 @@ test('running inside Hyper', t => {
     [25458, '/bin/zsh --login']
   ];
   child_process.execSync = execSyncStub(ps);
-  try {
-    const terminal = importFresh('../');
-    const command = '/opt/hyper/Hyper';
-    t.equal(terminal && terminal.command, command, `returns ${command}`);
-  } catch (err) {
-    t.fail(err.message);
-  }
+  const terminal = importFresh('../');
+  const command = '/opt/hyper/Hyper';
+  t.equal(terminal && terminal.command, command, `returns ${command}`);
 });
 
 test('running inside Terminator', t => {
@@ -36,13 +32,9 @@ test('running inside Terminator', t => {
     [16088, '/bin/zsh']
   ];
   child_process.execSync = execSyncStub(ps);
-  try {
-    const terminal = importFresh('../');
-    const command = '/usr/bin/terminator';
-    t.equal(terminal && terminal.command, command, `returns ${command}`);
-  } catch (err) {
-    t.fail(err.message);
-  }
+  const terminal = importFresh('../');
+  const command = '/usr/bin/terminator';
+  t.equal(terminal && terminal.command, command, `returns ${command}`);
 });
 
 test('running within subshell inside Hyper', t => {
@@ -53,11 +45,7 @@ test('running within subshell inside Hyper', t => {
     [15171, '/bin/bash']
   ];
   child_process.execSync = execSyncStub(ps);
-  try {
-    const terminal = importFresh('../');
-    const command = '/opt/hyper/Hyper';
-    t.equal(terminal && terminal.command, command, `returns ${command}`);
-  } catch (err) {
-    t.fail(err.message);
-  }
+  const terminal = importFresh('../');
+  const command = '/opt/hyper/Hyper';
+  t.equal(terminal && terminal.command, command, `returns ${command}`);
 });
