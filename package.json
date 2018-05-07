@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "tape test/test.js",
-    "test:debug": "node --inspect-brk node_modules/.bin/tape test/test.js"
+    "test:debug": "node --inspect-brk node_modules/.bin/tape test/test.js",
+    "release": "npm test && np --yolo"
   },
   "keywords": [
     "terminal",
