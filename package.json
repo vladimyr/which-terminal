@@ -4,7 +4,9 @@
   "description": "Check active terminal emulator",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "tape test/test.js",
+    "test:debug": "node --inspect-brk node_modules/.bin/tape test/test.js"
   },
   "keywords": [
     "terminal",
@@ -34,6 +36,8 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "import-fresh": "^2.0.0",
+    "tape": "^4.9.0"
   }
 }
