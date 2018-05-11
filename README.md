@@ -1,4 +1,4 @@
-# which-terminal [![build status](https://img.shields.io/travis/vladimyr/which-terminal/master.svg)](https://travis-ci.org/vladimyr/which-terminal/) [![package version](https://img.shields.io/npm/v/which-terminal.svg)](https://npm.im/which-terminal) [![GitHub license](https://img.shields.io/github/license/ExtensionEngine/tailor.svg)](https://github.com/ExtensionEngine/tailor/blob/develop/LICENSE)
+# which-terminal [![build status](https://img.shields.io/travis/vladimyr/which-terminal/master.svg)](https://travis-ci.org/vladimyr/which-terminal/) [![package version](https://img.shields.io/npm/v/which-terminal.svg)](https://npm.im/which-terminal) [![GitHub license](https://img.shields.io/github/license/vladimyr/which-terminal.svg)](https://github.com/vladimyr/which-terminal/blob/master/LICENSE)
 
 > Check active terminal emulator
 
